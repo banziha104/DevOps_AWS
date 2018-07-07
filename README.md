@@ -1,6 +1,6 @@
 # AWS를 이용한 DevOps
 
-1주차 과제
 
-- Vagrant VM 환경 구성 - Cent OS, Ubuntu
-- Docker 환경에서 Cent OS, Ubuntu 
+- ### [EC2 & Nginx](https://github.com/banziha104/DevOps_AWS/blob/master/markdown/1week/EC2_Nginx.md)
+
+- ### [Docker](https://github.com/banziha104/DevOps_AWS/blob/master/markdown/1week/Docker.md)

@@ -9,15 +9,42 @@
 
 ### 실습
 
+- AMI 선택
+
+[1](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/1.png)
+
+- 보안 그룹설정
+
+[2](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/2.png)
+
+- 키페어 설정
+
+[3](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/3.png)
+
+- EC2 가동확인
+
+[4](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/4.png)
+
+- EC2 접속
+
+[5](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/5.png)
+
 - sudo su 명령어로 루트권한으로 변경
-
 - nginx 1.12 설치
-
 - nginx 실행
+
+[6](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/6.png)
+[7](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/7.png)
+
+- 80번 포트열기
+
+[8](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/6.png)
+[9](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/9.png)
 
 - dns 주소로 웹 브라우저에서 접속
 
-- 80 번 포트 열기
+[10](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/10.png)
+
 
 
 ### 용어 

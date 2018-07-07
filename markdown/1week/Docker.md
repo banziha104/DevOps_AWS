@@ -1,23 +1,19 @@
 # Docker
 
-- amazon-linux-extras install docker
+- amazon-linux-extras install docker : Amazon 리눅스에 도커설치
 
 - service docker start : 도커 데몬 실행
 
-- docker pull nginx:latest : 
+- docker pull nginx:latest : Nginx를 받아옮
 
-- docker run -d -p 8080:80 --name Nginx nginx:latest
+- docker run -d -p 8080:80 --name Nginx nginx:latest : 호스트의 8080 번 포트를 컨테이너의 80 포트와 연결하고 Nginx라는 이름으로 구동
 
-- docker ps -a :
-
-- 인바운드 규칙 변경
+- docker ps -a : 도커 실행 확인
 
 
 ### 도커 단점
 
 - 메인 OS가 윈도우인 경우, 컨테이너의 OS도 윈도우여야함
-
-
 
 # 용어
 
