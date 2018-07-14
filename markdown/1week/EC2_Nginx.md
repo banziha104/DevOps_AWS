@@ -73,9 +73,24 @@ server {
          location ~* / (album|signin){ # 정규 표현식과 같이 (album | signin) 에 매칭되는지 확인 후 Nginx root 디렉토리를 해당 블럭에 적힌 디렉토리로 변경
             root /usr/share/nginx/html/Fastcampus-web-deploy/page;
         }
+        
+        location /api {
+            # 들어온 요청을 다른 웹 서버 or WAS로 전달
+            # DB서버와 연결되 있는 WAS의 ip와 포트 번호를 감출 수 있음
+            proxy_pass {ec2_private_dns/ip}:8080 # 프록시를 
+            
+        }
 ```
 
 - ~ / ~* : 들어오는 URL을 정규표현식으로 처리를 위해 사용하는 옵션
     - ~ : 대소문자 구분하여 적용
     - ~* : 대소문자 구분 없이 적용
+    
+### Nginx 기타 설정
+
+- worker_process auto(or number) : 몇 개의 thread를 사용할지, auto인 경우 core수 만큼 자동으로 설정됨
+- worker_connections 1024;
+    - worker thread 당 최대 몇 개의 connection을 처리할 것인지  정의
+    - 최대 처리량 = worker_processes * worker_connections
+- reverse proxy , Load Balancer, Web Cache 서버 등 설정에 따라 다양하게 사용가능
     
