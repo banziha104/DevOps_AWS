@@ -36,10 +36,13 @@
     
     
 ### Subnet
-    
 
-
-
-
-
-- Subnet
+- VPC의 ip 주소 범위
+- **IP block** 을 구분 짓는 네트워크 구성 그룹
+- 각 가용 영역에 하나 이상의 서브넷 생성 가능
+- 지정된 서브넷으로 AWS 리소스(EC2, RDS 등) 실행
+- 서브넷의 IP 대역대에 맞춰 인스턴스에 private ip 부여
+- 내부 인스턴스끼리는 통신 가능 (내부)
+- 기본 VPC로 설정시 각가의 기본 서브넷은 Public subnet으로 구성됨
+- public subnet에 구축된 AWS 인스턴스엔 public / private ip가 각각 부여됨
+- AWS **Internet gateway**를 통해 외부 인터넷에 연결 
