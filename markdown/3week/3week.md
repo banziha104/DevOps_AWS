@@ -17,8 +17,19 @@
 
 ### Pm2로 백그라운드로 구동하기
 
+> Process Manager : 프로세스를 관리하는 매니저 ( 예 : node pm2 )
+
 - npm install -g pm2
 - npm install
 - pm2 start Fastcampus-api-deploy/bin/www --name WAS 
 - pm2 list
 - pm2 show WAS
+
+### 이미지 생성 및 Lb 연결
+ 
+- 내부 로드밸런서 생성 : 외부에서의 요청을 막음
+
+
+### etc
+
+Nginx Proxy_pass 
