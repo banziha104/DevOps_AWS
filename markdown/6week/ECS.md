@@ -108,7 +108,17 @@
 
 11. Auto Scaling
 
-12. 서비스 검
+12. 서비스 검사
+
+
+# Container Orchestration
+
+> 컨테이너 배포를 위해 EC2 instance 클러스터링
+
+- ECS-Agent
+    - 컨테이너 배포 전략 수행
+    - Dynamic port mapping , 서비스 디스커버리 등의 컨테이너 관리 수행을 하는 ecs-agent를 각 인스턴스에 설치
+
 
 ## 팁
 
@@ -116,5 +126,5 @@
 
 - 메모리 512
 - 하드 제한 500
-- 소프트 제한 256
+- 소프트 제한 256 
 
