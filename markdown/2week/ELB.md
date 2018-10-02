@@ -13,12 +13,16 @@
 ## ELB 확인
 - 로드밸런서 정의 및 생성
 
+![1](https://github.com/banziha104/DevOps_AWS/blob/master/img/img2week/1.png)
 
 - 로드 밸런서를 웹서버랑 이어줌 (로드밸런서 프로토콜 80, 인스턴스 프로토콜 80)
+
+![2](https://github.com/banziha104/DevOps_AWS/blob/master/img/img2week/2.png)
 
 
 - 보안 그룹 할당
 
+![2](https://github.com/banziha104/DevOps_AWS/blob/master/img/img2week/3.png)
 
 - 상태 검사 구성
     - Ping 프로토콜
@@ -28,13 +32,22 @@
     - 간격 :
     - 비정상 임계값 : 횟수만큼 헬스체크에 실패하면 비정상판단
     - 정상 임계값 : 횟수만큼의 헬스체크에 통과하면 정상판단 
-    
+
+
+![5](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/5.png)
+
     
 - EC2 인스턴스 추가
     - 교차 영역 로드 밸런싱 활성화 : 트래픽을 분산할건지
-    - 연결 드레이닝 활성화 : 존 트래픽이 플로우를 지속하도록 허용할 기간 
+    - 연결 드레이닝 활성화 : 존 트래픽이 플로우를 지속하도록 허용할 기간
+
+![6](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/6.png)
+
     
 - 생성
+
+![7](https://github.com/banziha104/DevOps_AWS/blob/master/img/img1week/7.png)
+
 
 - 인스턴스 상태 확인 
     - OutOfService :  서비스 중이 아님
@@ -42,6 +55,3 @@
     
     
 - DNS 확인
-
-- 실제 확
-    
